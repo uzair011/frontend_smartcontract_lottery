@@ -83,7 +83,6 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            Hello from LotteryEntrance
             <div className="">
                 {raffleAddress ? (
                     <div className="">
@@ -109,6 +108,7 @@ export default function LotteryEntrance() {
                         </div>
                         <div>Number of players: {numOfPlayers}</div>
                         <div>Recent winner: {recentWinner}</div>
+                        <div> Thank you <div/>
                     </div>
                 ) : (
                     <div>No raffle address detected!!!</div>
